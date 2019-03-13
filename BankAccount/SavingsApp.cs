@@ -69,7 +69,7 @@ namespace _BankAccount
         public static void DisplayClient2(Savings client2)
         {
             WriteLine(client2.ToString());
-            WriteLine("\tClosing balance:               {0:c}" +
+            WriteLine("\tClosing balance:                {0:c}" +
                      "\n\tInterest rate:                 {1:c}" +
                      "\n\tDebit transaction fee:         {2:c}" +
                      "\n\tAnnual fee:                    {3:c}",

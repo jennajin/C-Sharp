@@ -6,7 +6,7 @@ Simple C# console applications
 
 Developed a saving account with open, withdraw, and deposit functions.
 The console retrieve the account information from user input.
-After transaction is done, the application calculates interest, monthly fees and charges.
+After transaction is done, the application calculates interest rate, monthly fees and charges.
 It also displays a monthly bank statement.
 
 _Date of creation: Feb. 2017_
