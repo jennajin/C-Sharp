@@ -23,40 +23,40 @@
 7. [Master Page](#Master)
 8. [Other](#Other)
 
-#### Home
+### Home
 
 Default page (main page).
 It contains basic information about the product.
 
-#### Information
+### Information
 
 It contains information about the product.
 
-#### Feedback
+### Feedback
 
 This form includes text boxes, a text area, check box, and submit button.
 When user clicks the submit button, it transfers to the confirmation page.
 
-#### Register
+### Register
 
 It allows users to register to this website. Passwords must be stored using a hashing mechanism.
 Client-side validation is processed for checking the values in form's input fields conform to certain expectations.
 
-#### Login
+### Login
 
 Username and password must match with database values.
 If login validation is successful, a success message is displayed in the Successful Login Page.
 
-#### Browse
+### Browse
 
 Study note page.
 It contains CRUD (Craete, Read, Update, Delete) operations.
 
-#### Master
+### Master
 
 A template for other pages.
 It allows a consistent look and behavior for all the pages.
 
-#### Other
+### Other
 
 This product includes JavaScript, CSS, and Bootstrap elements.

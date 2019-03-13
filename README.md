@@ -13,7 +13,8 @@ _Date of creation: Apr. 2018_
 
 ## Airport Traffic Monitoring
 
-`C# console application.`
+`C# console application`
+
 Developed a airport application to monitor airport air traffic.
 This application validates user input and displays a result or an error message.
 
@@ -23,7 +24,7 @@ _Date of creation: Apr. 2017_
 
 ## Bank Account
 
-`C# console application.`
+`C# console application`
 
 Developed a saving account with open, withdraw, and deposit functions.
 The console retrieve the account information from user input.
