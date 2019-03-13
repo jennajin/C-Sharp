@@ -1,6 +1,6 @@
 # Bank Account
 
-### A bank offers a saving account.
+### A bank offers a saving account
 
 - A monthly interest rate: 1.00%
 - A per transaction fee: \$5.00

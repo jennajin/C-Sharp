@@ -1,11 +1,11 @@
 # Airport Traffic Monitoring
 
-### Data entered by the user is validated
+### Data validation
 
-- airport name cannot be balnk
-- airport runway charge must be greater than $1499.99 and upto a maximum of $3500.00
-- flights and passengers cannot be negative.
-- month must be an integer and valid.
+- airport name cannot be blank
+- airport runway charge must be greater than $1499.99 and upto $3500.00
+- flights and passengers cannot be negative
+- month must be an integer and valid
 
 ### The application displays the information of each airport
 
