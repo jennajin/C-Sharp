@@ -1,0 +1,169 @@
+﻿/* ============================== Master ================================= */
+/* background color of body */
+body {
+  background-color: #fef9c1; /* light yellow */
+}
+
+.ItemTemp span {
+  float: left;
+}
+
+/* logo */
+header h1 {
+  font-family: "Lobster", cursive;
+  color: #4c7a36; /* dark green */
+  display: inline-block;
+}
+
+header > a {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* login button */
+.float-right {
+  padding-top: 10px;
+  padding-right: 15px;
+}
+
+/* menu bar */
+.nav {
+  clear: both;
+  background-color: #cae7b9; /* light green */
+}
+
+.nav a {
+  color: #4c7a36; /* dark green */
+}
+
+.nav a:visited {
+  color: #2c451f; /*dark-dark green for visited links */
+}
+
+.nav a:hover {
+  background-color: white;
+}
+
+/* body contents */
+#main {
+  width: 65%;
+  min-width: 600px;
+  margin: 10% auto;
+  background-color: #cae7b9; /* light green */
+  border: 1px #cae7b9;
+  border-radius: 10px;
+}
+
+/* footer */
+#footer {
+  background-color: #cae7b9; /* light green */
+  border-top: 2px solid #4c7a36; /* dark green */
+  display: block;
+  height: 30px;
+}
+
+/* ============================== Common Fields ========================== */
+table {
+  border-radius: 10px;
+}
+
+/* ============================== Login ================================= */
+/* vertical line */
+.vl {
+  border-left: 3px solid green;
+  height: 300px;
+}
+
+/* signin button */
+.signinBtn {
+  padding-left: 60px;
+}
+
+/* login column */
+.login_column {
+  padding-left: 40px;
+}
+
+/* ============================== Home ================================= */
+.header {
+  text-align: center; /* Header text alignment to center*/
+  width: 100%; /* Layout width to 100% */
+  height: 95vh; /* Layout height to 95vh */
+  margin: 0;
+  padding: 0;
+  background: url("images/bg.jpg");
+  background-size: cover;
+}
+
+.header h1 {
+  text-align: center;
+  margin: auto;
+  font-size: 100px;
+}
+
+.header h1 span {
+  color: red;
+  font-weight: bolder;
+}
+.catItemID {
+  max-width: 250px;
+}
+
+.catItemID div img {
+  border: 5px solid #28a745;
+  /*width: calc(98% - 2px);*/
+  max-width: 200px;
+  margin: auto;
+  border-radius: 5px 5px 0 0;
+}
+
+.CategoryTable {
+  background-color: #4c7a36 !important;
+}
+.CategoryImage {
+  background-color: #4c7a36 !important;
+}
+
+.labelBtn {
+  width: calc(98% - 2px);
+  border-radius: 0 0 5px 5px;
+}
+
+#temp {
+  display: inline-block;
+  width: 59%;
+}
+
+#loginInstructions {
+  display: inline-block;
+  width: 40%;
+  height: 300px;
+  border-left: 1px solid #4c7a36;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+#mainRegister #form1 {
+  background-color: #cae7b9; /* light green */
+}
+
+#default_row {
+  padding: 15px;
+}
+/* ============================== Feedback ============================== */
+.row span {
+  color: #2c451f;
+  font-weight: bold;
+}
+
+/* ============================== About ================================= */
+_thead {
+  background-color: #4c7a36; /* dark green */
+  color: white;
+}
+
+/* ============================== Browse ================================= */
+.browse_align {
+  padding-left: 80px;
+}

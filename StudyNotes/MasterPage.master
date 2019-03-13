@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>StudyNotes</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster" />
+    <link rel="stylesheet" href="~/Style/style.css" />
+</head>
+
+<body>
+   <!-- header -->
+    <form id="form1" runat="server">
+    <header>
+        <!-- Logo, Button: Login -->
+        <h1>StudyNotes</h1>
+        <div class="float-right">
+            <a ID="linkRegister" runat="server" href="Register.aspx" class="btn btn-success">Register</a>
+            <a ID="linkLogin" runat="server" href="Login.aspx" class="btn btn-success">Login</a>
+            <a ID="BtnLogout" runat="server" href="Logout.aspx" class="btn btn-danger">Logout</a>
+        </div>
+        
+        <!-- sitemap/menu -->
+        <asp:Menu ID="Menu" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" BackColor="#cae7b9" DynamicHorizontalOffset="2" Font-Names="Cooper Black" Font-Size="Large" ForeColor="#2c451f" StaticSubMenuIndent="10px" Width="100%" DynamicVerticalOffset="5">
+            <DynamicHoverStyle BackColor="#4c7a36" ForeColor="White" />
+            <DynamicMenuItemStyle BackColor="#006600" ForeColor="White" HorizontalPadding="5px" VerticalPadding="2px" />
+            <DynamicMenuStyle BackColor="#4c7a36" />
+            <DynamicSelectedStyle BackColor="#4c7a36" ForeColor="White" />
+            <DynamicItemTemplate>
+                <%# Eval("Text") %>
+            </DynamicItemTemplate>
+            <StaticHoverStyle BackColor="#4c7a36" ForeColor="White" />
+            <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+            <StaticSelectedStyle BackColor="#4c7a36" ForeColor="White" />
+        </asp:Menu><asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+
+        <!-- home page's banner -->
+        <asp:ContentPlaceHolder id="bannerAndHeaderPlaceHolder" runat="server">
+        </asp:ContentPlaceHolder>
+    </header>
+ 
+    <!-- body contents -->
+        <div id="main"> 
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div> 
+    </form>
+
+    <!-- footer: student name, student number -->
+    <footer>
+        <div id="footer" class="text-center">
+            &nbsp;&copy; 2018
+       </div>
+    </footer>
+
+</body>
+</html>
